@@ -32,7 +32,7 @@
     </div> 
     <div class="val">
         <div class="Chatt">
-            <form action='Chatt.php' method='post'>
+            <form action='chatt.php' method='post'>
             <?php
                 echo '<input type="hidden" name="Namn" value="'.$patient['Fnamn'].'">';
             ?>
